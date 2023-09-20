@@ -22,7 +22,7 @@ defmodule DepsExample.MixProject do
   defp deps do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:deps_example_target, git: "git@github.com:pdgonzalez872/deps_example_target.git", branch: "a_remote_branch"}
     ]
   end
 end

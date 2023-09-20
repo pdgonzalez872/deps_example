@@ -1,0 +1,3 @@
+%{
+  "deps_example_target": {:git, "git@github.com:pdgonzalez872/deps_example_target.git", "8cbf194b4715bcfeaf386592fd1ade50c5519ddf", [branch: "a_remote_branch"]},
+}
